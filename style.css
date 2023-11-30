@@ -1,0 +1,132 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bigshot+One&family=Lato:ital@0;1&family=Lora:wght@500&family=Oswald:wght@500&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@500&family=Rubik+Bubbles&family=Satisfy&family=Source+Code+Pro:wght@500&family=Ubuntu:ital,wght@0,500;1,500&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    
+}
+.logo {
+    width: 60px;
+}
+
+    .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:10px;
+    width:100vw;
+}
+
+nav li{
+    list-style:none;
+    display:inline-block;
+    padding:0 10px;
+    
+}
+nav li a{
+    padding:5px;
+    transition:0.3s;
+}
+nav li a:hover  ,.active{
+    background-color:white;
+    color:rebeccapurple;
+    border-radius:5px;
+    
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+    padding:0 60px;
+}
+
+.img{
+    width:50%;
+    height:100%
+}
+.img img{
+    width:100%;
+    height:100%;
+}
+
+.text{
+    width:50%;
+    text-align:right;
+}
+.text h1{
+    color:white;
+    font-size:60px;
+}
+.text p{
+    font-size:10px;
+    color:white;
+    text-align:right;
+    padding-left:20vw;
+}
+button{
+    padding:20px 40px;
+    background-color:palevioletred;
+    border:none;
+    outline:none;
+    border-radius:10px;
+   
+}
+
+footer{
+    width:100vw;
+    position:absolute;
+    bottom:0;
+}
+footer p{
+    text-align:center;
+    font-size:10px;
+    color:white;
+    margin:20px 200px;
+}
+
+
+/*styling of employee record page */
+
+.emp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+    padding:0 20px;
+}
+
+.emp .tbl-head{
+    width:50vw;
+    padding:10px 30px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.table{
+    text-align:center;
+}
+
+
+
+
+
+
+
